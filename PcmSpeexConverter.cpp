@@ -18,7 +18,6 @@ PcmSpeexConverter::PcmSpeexConverter(AudioConstants::SampleRate sr, AudioConstan
 	speex_encoder_ctl(enc_state, SPEEX_GET_FRAME_SIZE, &frame_size);
 //    speex_encoder_ctl(enc_state, SPEEX_SET_SAMPLING_RATE, &sr); //TODO sample rate?
 
-
 	this->create_obj_success = true;
 
 }
